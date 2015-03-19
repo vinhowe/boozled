@@ -1,0 +1,135 @@
+.header {
+    width: 300px;
+    height: 25px;
+    background-color: #5A68A5;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -45px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+	h-align: middle;
+	-webkit-transform: translateZ(0);
+	padding: 15px;
+	padding-bottom: 0px;
+}
+#beantext {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 475%;
+	margin-bottom: 15px;
+}
+
+.author-link {
+	color: rgba(240,240,240,0.75);
+	text-decoration: none;
+	text-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+	transition: all 150ms ease-out;
+}
+
+.author-link:hover{
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	text-shadow: 0px 1px 7px rgba(0,0,0,0.75);
+}
+
+p { 
+	display:inline; 
+} 
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(250,250,250,0.0);
+	color: #fff;
+	padding-bottom: 25px;
+}
+
+.footer  p{
+	color: rgba(255,255,255,0.5);
+	text-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+	transition: all 150ms ease-out;
+}
+
+.footer  p:hover{
+	color: rgba(245,245,245,1);
+	text-shadow: 0px 1px 7px rgba(0,0,0,0.75);
+}
+
+.footer .container {
+    text-align: center;
+    position: relative;
+    top: 40%;
+	-webkit-transform: translateZ(0);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#background {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+
+}
+
+#background2 {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+}
+
+#beanbutton  {
+	color: #fff;
+	border-color: #fff;
+	transition: all 250ms ease-out;
+	background-color: rgba(255,255,255,0.05);
+	z-index: auto;
+}
+
+#beanbutton:hover {
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.10), 0px 5px 12px rgba(0,0,0,0.15);
+	color: #fff;
+	border-color: #fff;
+	background-color: rgba(255,255,255,0.25);
+	z-index: auto;
+}
+
+#beanbutton:active {
+	box-shadow: 0px 8px 25px rgba(0,0,0,0.10), 0px 4px 15px rgba(0,0,0,0.15);
+	background-color: rgba(255,255,255,0.5);
+	color: #fff;
+	border-color: #fff;
+	z-index: auto;
+}
+
+html, body{height:100%; margin:0;padding:0}
+ 
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+ 
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+ 
+.centering {
+  float:none;
+  margin:0 auto;
+}
